@@ -1,11 +1,55 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.whl
+*.manifest
+pip-wheel-metadata/
+.python-version
+
+# Entornos virtuales
 .env
+.venv/
 venv/
+env/
+
+# Sistemas de desarrollo
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs y debugging
+*.log
+*.out
+*.err
+*.trace
+logs/
+
+# Archivos temporales
+*.bak
+*.tmp
+*.temp
+~$*
 
 # MacOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
-# Logs
-*.log
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+instances/
+resultados_solver/
+
